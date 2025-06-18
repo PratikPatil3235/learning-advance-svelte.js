@@ -24,6 +24,7 @@
   //   import Button from "./components/Button.svelte";
   // import Card from "./components/Card.svelte";
   import NameList from "./components/NameList.svelte";
+  import TableComponent from "./components/TableComponent.svelte";
   //   import Outer from "./components/Outer.svelte";
   //   function handleGreet(event) {
   //     alert(event.detail);
@@ -31,9 +32,9 @@
 </script>
 
 <main>
+<TableComponent/>
 
-
-  <NameList>
+  <!-- <NameList>
     <h3 slot="hero" let:firstName let:lastName>{firstName} {lastName}</h3>
   </NameList>
   <NameList>
@@ -41,7 +42,7 @@
   </NameList>
   <NameList>
     <h3 slot="hero" let:firstName let:lastName>{firstName}</h3>
-  </NameList>
+  </NameList> -->
   <!-- <Outer on:greet={handleGreet} />
 
   <Button on:click={() => alert("clicked")} /> -->
